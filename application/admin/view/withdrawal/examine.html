@@ -1,0 +1,70 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+	<div class="form-group">
+			<label class="control-label col-xs-12 col-sm-2">{:__('Money')}:</label>
+			<div class="col-xs-12 col-sm-8">
+					<input id="c-money" class="form-control" disabled step="0.01" name="row[money]" type="number" value="{$row.money|htmlentities}">
+			</div>
+	</div>
+	<div class="form-group">
+			<label class="control-label col-xs-12 col-sm-2">{:__('Actualamount')}:</label>
+			<div class="col-xs-12 col-sm-8">
+					<input id="c-actualamount" class="form-control" disabled step="0.01" name="row[actualamount]" type="number" value="{$row.actualamount|htmlentities}">
+			</div>
+	</div>
+	<div class="form-group">
+			<label class="control-label col-xs-12 col-sm-2">{:__('Servicecharge')}:</label>
+			<div class="col-xs-12 col-sm-8">
+					<input id="c-servicecharge" class="form-control" disabled step="0.01" name="row[servicecharge]" type="number" value="{$row.servicecharge|htmlentities}">
+			</div>
+	</div>
+	<div class="form-group">
+			<label class="control-label col-xs-12 col-sm-2">{:__('Payeename')}:</label>
+			<div class="col-xs-12 col-sm-8">
+					<input id="c-payeename" class="form-control" disabled name="row[payeename]" type="text" value="{$row.payeename|htmlentities}">
+			</div>
+	</div>
+	<div class="form-group">
+			<label class="control-label col-xs-12 col-sm-2">{:__('Account')}:</label>
+			<div class="col-xs-12 col-sm-8">
+					<input id="c-account" class="form-control" disabled name="row[account]" type="text" value="{$row.account|htmlentities}">
+			</div>
+	</div>
+	<div class="form-group">
+			<label class="control-label col-xs-12 col-sm-2">{:__('Bank')}:</label>
+			<div class="col-xs-12 col-sm-8">
+					<input id="c-bank" class="form-control" disabled name="row[bank]" type="text" value="{$row.bank|htmlentities}">
+			</div>
+	</div>
+	<div class="form-group">
+			<label class="control-label col-xs-12 col-sm-2">{:__('Subbranch')}:</label>
+			<div class="col-xs-12 col-sm-8">
+					<input id="c-subbranch" class="form-control" disabled name="row[subbranch]" type="text" value="{$row.subbranch|htmlentities}">
+			</div>
+	</div>
+	<!-- <div class="form-group">
+			<label class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+			<div class="col-xs-12 col-sm-8">
+
+					<div class="radio">
+					{foreach name="statusList" item="vo"}
+					<label for="row[status]-{$key}"><input id="row[status]-{$key}" name="row[status]" type="radio" value="{$key}" {in name="key" value="$row.status"}checked{/in} /> {$vo}</label>
+					{/foreach}
+					</div>
+
+			</div>
+	</div> -->
+	<div class="form-group">
+			<label class="control-label col-xs-12 col-sm-2">{:__('Remarks')}:</label>
+			<div class="col-xs-12 col-sm-8">
+					<textarea id="c-remarks" class="form-control " rows="5" name="row[remarks]" cols="50">{$row.remarks|htmlentities}</textarea>
+			</div>
+	</div>
+	<div class="form-group layer-footer">
+			<label class="control-label col-xs-12 col-sm-2"></label>
+			<div class="col-xs-12 col-sm-8">
+					<button type="submit" class="btn btn-success btn-embossed">{:__('OK')}</button>
+					<button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+			</div>
+	</div>
+</form>

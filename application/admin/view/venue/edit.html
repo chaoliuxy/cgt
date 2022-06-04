@@ -1,0 +1,94 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+  <input type="hidden" name="session" value="{$venue_id}">
+  <div class="form-group">
+    <label class="control-label col-xs-12 col-sm-2">{:__('Sporttype_ids')}:</label>
+    <div class="col-xs-12 col-sm-8">
+        <input id="c-sporttype_ids" data-rule="required" data-source="sporttype/index" data-multiple="true" class="form-control selectpage" data-params='{"custom[venue_id]":"0"}' name="row[sporttype_ids]" type="text" value="{$row.sporttype_ids|htmlentities}">
+    </div>
+</div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" data-rule="required" class="form-control" name="row[name]" type="text" value="{$row.name|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-xs-12 col-sm-2">{:__('Address')}:</label>
+      <div class="col-xs-12 col-sm-6">
+          <input id="c-address" class="form-control" name="row[address]" type="text" value="{$row.address|htmlentities}">
+      </div>
+      <div class="col-xs-12 col-sm-2">
+        <button type="button" class="btn btn-primary" data-toggle='addresspicker' data-input-id="c-address" data-lng-id="c-lng" data-lat-id="c-lat">点击选择地址</button>
+      </div>
+  </div>
+	<div class="form-group">
+		<label class="control-label col-xs-12 col-sm-2"></label>
+				<div class="col-xs-12 col-sm-8" style="color: red;">
+					建议尺寸：220*220
+				</div>
+		</div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Images')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-images" data-rule="required" class="form-control" size="50" name="row[images]" type="text" value="{$row.images|htmlentities}">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="faupload-images" class="btn btn-danger faupload" data-input-id="c-images" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="true" data-preview-id="p-images"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-images" class="btn btn-primary fachoose" data-input-id="c-images" data-mimetype="image/*" data-multiple="true"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-images"></span>
+            </div>
+            <ul class="row list-inline faupload-preview" id="p-images"></ul>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Star_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-star_time" data-rule="required" class="form-control datetimepicker" data-date-format="HH:mm" data-use-current="true" name="row[star_time]" type="text" value="{$row.star_time}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('End_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-end_time" data-rule="required" class="form-control datetimepicker" data-date-format="HH:mm" data-use-current="true" name="row[end_time]" type="text" value="{$row.end_time}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Content')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea id="c-content" data-rule="required" class="form-control editor" rows="5" name="row[content]" cols="50">{$row.content|htmlentities}</textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Lng')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-lng" data-rule="required" class="form-control" name="row[lng]" type="text" value="{$row.lng|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Lat')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-lat" data-rule="required" class="form-control" name="row[lat]" type="text" value="{$row.lat|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+
+            <div class="radio">
+            {foreach name="statusList" item="vo"}
+            <label for="row[status]-{$key}"><input id="row[status]-{$key}" name="row[status]" type="radio" value="{$key}" {in name="key" value="$row.status"}checked{/in} /> {$vo}</label>
+            {/foreach}
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

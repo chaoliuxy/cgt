@@ -1,0 +1,47 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    {if $venue_id==0}
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Venue_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-venue_id" data-rule="required" data-source="venue/index" class="form-control selectpage" name="row[venue_id]" type="text" value="{$row.venue_id|htmlentities}">
+        </div>
+    </div>
+    {/if}
+    <!-- <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Reservation_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-reservation_id"  data-source="reservation/index" class="form-control selectpage" data-params='{"custom[venue_id]":"0"}' name="row[reservation_id]" type="text" value="{$row.reservation_id|htmlentities}">
+        </div>
+    </div> -->
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Case_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-case_id" data-rule="required" class="form-control" name="row[case_id]" type="text" value="{$row.case_id|htmlentities}">
+        </div>
+    </div>
+    <!-- <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Opentime')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-opentime" data-rule="required" class="form-control" name="row[opentime]" type="text" value="{$row.opentime}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Address')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-address" data-rule="required" class="form-control" name="row[address]" type="text" value="{$row.address|htmlentities}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Tel')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-tel" data-rule="required" class="form-control" name="row[tel]" type="text" value="{$row.tel|htmlentities}">
+        </div>
+    </div> -->
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

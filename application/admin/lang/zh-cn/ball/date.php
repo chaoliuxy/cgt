@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'Time'          => '日期',
+    'Descript'      => '描述',
+    'Big_num'       => '全场个数',
+    'Time_num'      => '时间段个数',
+    'Open_small'    => '是否开启半场',
+    'Big_content'   => '全场配置',
+    'Small_content' => '半场配置',
+    'Status'        => '状态',
+    'Status 0'      => '隐藏',
+    'Status 1'      => '开启',
+    'Weigh'         => '权重',
+    'Createtime'    => '创建时间',
+    'Updatetime'    => '更新时间',
+    'Type_id'        => '场馆分类',
+    'Name'           => '场馆名称',
+    'Images'         => '图片',
+    'Start_time'     => '营业开始时间',
+    'End_time'       => '营业结束时间',
+    'Address'        => '场馆地址',
+    'Lng'            => '经度',
+    'Lat'            => '纬度',
+    'Facilities_ids' => '场馆设施',
+		'Venue_id'       => '所属体育馆',
+    'Reservation_id' => '场馆',
+];

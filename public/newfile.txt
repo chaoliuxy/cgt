@@ -1,0 +1,1 @@
+SQLSTATE[HY000] [1045] Access denied for user 'cgt_qifudaren_ne'@'localhost' (using password: YES)

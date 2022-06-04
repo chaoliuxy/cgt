@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="__CDN__/assets/saasadmin/css/index.css"/>
+		<title>让工作更高效，赋能合作伙伴</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="cheader">
+				<div class="cheader-l">
+					<!-- <div style="line-height: 0;font-size: 0;"><img src="img/logo.png" ></div> -->
+					<div>让工作更高效，赋能合作伙伴</div>
+				</div>
+				<div>
+					技术支持热线：13603004836
+				</div>
+			</div>
+			<div class="cbody">
+				<div class="cbody-i">
+					<img src="__CDN__/assets/saasadmin/img/bg.png" >
+				</div>
+				<div class="cbody-i cbody-r">
+					<div style="max-width: 330px;">
+						<div class="title">{$site.name}管理系统</div>
+						<div>
+							<form  action="" method="post" id="login-form">
+                <div id="errtips" class="hide"></div>
+                {:token()}
+								<div class="input">
+                  <!-- <input class="form-control" id="pd-form-email" type="email" placeholder="邮箱"> -->
+                  <input type="text" class="form-control" id="pd-form-username" placeholder="{:__('Username')}" name="username" autocomplete="off" value="" data-rule="{:__('Username')}:required;username"/>
+								</div>
+								<div class="input">
+                  <input type="password" class="form-control" id="pd-form-password" placeholder="{:__('Password')}" name="password" autocomplete="off" value="" data-rule="{:__('Password')}:required;password"/>
+									<!-- <input type="password" placeholder="密码"> -->
+								</div>
+								<div class="input yzm" >
+									<div>
+                    <!-- <input type="text" placeholder="验证码"> -->
+                    <input type="text" name="captcha" class="form-control" placeholder="{:__('Captcha')}" data-rule="{:__('Captcha')}:required;length(4)"/>
+									</div>
+									<div>
+                    <!-- <img src="__CDN__/assets/saasadmin/img/logo.png"> -->
+                    <img src="{:rtrim('__PUBLIC__', '/')}/index.php?s=/captcha" width="100" height="30" onclick="this.src = '{:rtrim('__PUBLIC__', '/')}/index.php?s=/captcha&r=' + Math.random();"/>
+									</div>
+
+								</div>
+								<div>
+									<div class="button"><button type="submit" class="login-btn btn-success btn-lg btn-block">登录</button></div>
+									<!-- <div class="cbody-link">
+										<div>忘记密码</div>
+										<div>忘记账号</div>
+										<div>修改密码</div>
+									</div> -->
+								</div>
+							</form>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- <div class="cfooter">
+				<div>
+					版权所有©深圳市龙广科技有限公司 <br>
+					粤icp:18009218号
+				</div>
+			</div> -->
+		</div>
+
+	</body>
+</html>

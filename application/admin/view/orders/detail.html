@@ -1,0 +1,92 @@
+<form id="send-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+	<fieldset>
+		<legend>
+			{:__('order detail info')}
+		</legend>
+		<!-- 订单信息 -->
+		<div class="col-md-10 col-md-offset-1 col-sm-12">
+			<div class="box radius-none">
+				<div class="box-header with-border">
+					{:__('Order_no')}：{$vo.order_no} ( 下单时间 {$vo.createtime|date="Y-m-d H:i:s",###})
+				</div>
+				<div class="box-body">
+					<div class="panel panel-default">
+					  <div class="panel-heading">商品详情</div>
+					  <table class="table">
+					  	{foreach name="vo.goods_list" item="item"}
+						  	<tr>
+							  <td>{$item.goods_name}</td>
+							  <td>{$item.goods_attr}</td>
+                <td>单价:{$item.goods_price}元</td>
+							  <td>数量:{$item.total_num}</td>
+							</tr>
+				        {/foreach}
+					  </table>
+					</div>
+					<div class="row" style="margin:1em 0;">
+						<div class="col-md-3 padding">
+							<span class="label label-danger">{:__('Pay_status')}</span> :
+							{$vo.pay_status_text}
+						</div>
+						<div class="col-md-3 padding">
+							<span class="label label-danger">{:__('Pay_time')}</span> :
+							{if ($vo.pay_time==0)}
+								无
+							{else}
+								{$vo.pay_time|date="Y-m-d H:i:s",###}
+							{/if}
+						</div>
+						<div class="col-md-3 padding">
+							<span class="label label-danger">{:__('Pay_price')}</span> :
+							{$vo.pay_price}
+						</div>
+					</div>
+					<div class="row" style="margin:1em 0;">
+						<!-- <div class="col-md-3 padding">
+							<span class="label label-success">{:__('包装费')}</span> :
+							{$vo.packing_fee}
+						</div> -->
+						<div class="col-md-3 padding">
+							<span class="label label-success">{:__('优惠券优惠价')}</span> :
+							{$vo.discount_price}
+						</div>
+						<div class="col-md-3 padding">
+							<span class="label label-success">{:__('VIP优惠价')}</span> :
+							{$vo.discount_vip_price}
+						</div>
+						<div class="col-md-3 padding">
+							<span class="label label-success">{:__('总优惠价')}</span> :
+							{$vo.total_discount_price}
+						</div>
+					</div>
+					<div class="row" style="margin:1em 0;">
+						<!-- <div class="col-md-3 padding">
+							<span class="label label-info">{:__('Receipt_status')}</span> :
+						</div>
+						<div class="col-md-3 padding">
+							<span class="label label-info">{:__('Receipt_time')}</span> :
+						</div> -->
+						<div class="col-md-3 padding">
+							<span class="label label-info">{:__('Order_status')}</span> :
+							{$vo.order_status_text}
+						</div>
+					</div>
+					<div class="col-md-12 padding">
+						<fieldset>
+							<legend><h4> </h4></legend>
+							<div class="col-md-6 col-md-offset-6 padding">
+								<div class="col-md-8 padding" style="text-align: right;">
+									<span class="label label-success">下单微信昵称:</span><br><br>{$vo.user.nickname}
+								</div>
+								<div class="col-md-3 padding" style="text-align: left;">
+									<img style="width: 78px;" class="img-circle" src="{$vo.user.avatar}"/>
+								</div>
+							</div>
+						</fieldset>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 订单信息 -->
+	</fieldset>
+</form>

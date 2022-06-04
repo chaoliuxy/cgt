@@ -1,0 +1,139 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+  <input type="hidden" name="session" value="{$venue_id}">
+	{if $venue_id==0}
+	<div class="form-group">
+			<label class="control-label col-xs-12 col-sm-2">{:__('Venue_id')}:</label>
+			<div class="col-xs-12 col-sm-8">
+					<input id="c-venue_id" data-rule="required" data-source="venue/index" class="form-control selectpage" name="row[venue_id]" type="text" value="">
+			</div>
+	</div>
+	{/if}
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Type_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-type_id" data-rule="required" data-source="type/index" data-field="type_name" class="form-control selectpage" data-params='{"custom[venue_id]":"0"}' name="row[type_id]" type="text" value="">
+        </div>
+    </div>
+	<div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Balltemplate_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+                <input id="c-balltemplate_id" data-rule="required" data-source="ball/template/index" class="form-control selectpage" data-params='{"custom[venue_id]":$venue_id}' data-field="title" name="row[balltemplate_id]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Name')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" data-rule="required" class="form-control" name="row[name]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-xs-12 col-sm-2">场地名:</label>
+      <div class="col-xs-12 col-sm-8">
+          <input id="c-field_name" data-rule="required" class="form-control" name="row[field_name]" type="text">
+      </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-xs-12 col-sm-2">场地数:</label>
+    <div class="col-xs-12 col-sm-8">
+        <input id="c-field_number" data-rule="required" class="form-control" name="row[field_number]" type="number">
+    </div>
+</div>
+<div class="form-group">
+    <label class="control-label col-xs-12 col-sm-2">灯控开关设备号:</label>
+    <div class="col-xs-12 col-sm-8">
+        <input id="c-deviceid" data-rule="required" placeholder="多组设备号用逗号隔开" class="form-control" name="row[deviceid]" type="text">
+    </div>
+</div>
+<div class="form-group">
+	<label class="control-label col-xs-12 col-sm-2"></label>
+	<div class="col-xs-12 col-sm-8" style="color: red;">
+		建议尺寸：220 *220
+	</div>
+</div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Images')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-images" data-rule="required" class="form-control" size="50" name="row[images]" type="text">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="faupload-images" class="btn btn-danger faupload" data-input-id="c-images" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="true" data-preview-id="p-images"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-images" class="btn btn-primary fachoose" data-input-id="c-images" data-mimetype="image/*" data-multiple="true"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-images"></span>
+            </div>
+            <ul class="row list-inline faupload-preview" id="p-images"></ul>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Start_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-start_time" data-rule="required" class="form-control datetimepicker" data-date-format="HH:mm" data-use-current="true" name="row[start_time]" type="text" value="{:date('H:i')}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('End_time')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-end_time" data-rule="required" class="form-control datetimepicker" data-date-format="HH:mm" data-use-current="true" name="row[end_time]" type="text" value="{:date('H:i')}">
+        </div>
+    </div>
+		<div class="form-group">
+			<label class="control-label col-xs-12 col-sm-2">{:__('Address')}:</label>
+			<div class="col-xs-12 col-sm-6">
+					<input id="c-address" class="form-control" name="row[address]" type="text">
+			</div>
+			<div class="col-xs-12 col-sm-3">
+				<button type="button" class="btn btn-primary" data-toggle='addresspicker' data-input-id="c-address" data-lng-id="c-lng" data-lat-id="c-lat">选择地址</button>
+			</div>
+	</div>
+					<input id="c-lng" data-rule="required" class="form-control" name="row[lng]" type="hidden">
+					<input id="c-lat" data-rule="required" class="form-control" name="row[lat]" type="hidden">
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Facilities_ids')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-facilities_ids" data-rule="required" data-source="facilities/index" data-multiple="true" data-params='{"custom[venue_id]":"0"}' class="form-control selectpage" name="row[facilities_ids]" type="text" value="">
+        </div>
+    </div>
+    <!-- <div class="form-group">
+      <label class="control-label col-xs-12 col-sm-2">{:__('Type')}:</label>
+      <div class="col-xs-12 col-sm-8">
+
+          <select  id="c-type" data-rule="required" class="form-control selectpicker" name="row[type]">
+              {foreach name="typeList" item="vo"}
+                  <option value="{$key}" {in name="key" value="20"}selected{/in}>{$vo}</option>
+              {/foreach}
+          </select>
+
+      </div>
+  </div> -->
+  <div class="form-group">
+    <label for="c-price" class="control-label col-xs-12 col-sm-2">{:__('Price')}:</label>
+    <div class="col-xs-12 col-sm-8">
+        <input id="c-price" class="form-control" name="row[price]" type="number">
+    </div>
+  </div>
+  <!-- <div class="form-group">
+    <label for="c-group_price" class="control-label col-xs-12 col-sm-2">{:__('Group_price')}:</label>
+    <div class="col-xs-12 col-sm-4">
+        <input id="c-group_price" class="form-control" name="row[group_price]" type="number">
+    </div>
+  </div>
+  <div class="form-group">
+      <label class="control-label col-xs-12 col-sm-2">{:__('Group_work_number')}:</label>
+      <div class="col-xs-12 col-sm-8">
+          <input id="c-group_work_number" class="form-control" name="row[group_work_number]" type="number">
+      </div>
+  </div>
+  <div class="form-group">
+      <label class="control-label col-xs-12 col-sm-2">{:__('Group_work_time')}:</label>
+      <div class="col-xs-12 col-sm-8">
+          <input id="c-group_work_time" class="form-control "  data-use-current="true" name="row[group_work_time]" type="text" value="">
+      </div>
+  </div> -->
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>

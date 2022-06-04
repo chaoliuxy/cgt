@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'Id'            => 'ID',
+    'Devid'         => '储物柜设备ID',
+    'Venue_id'      => '所属体育馆',
+    'Boxtype'       => '规格',
+    'Boxtype c'     => '控制箱',
+    'Boxtype s'     => '小箱',
+    'Boxtype m'     => '中箱',
+    'Boxtype l'     => '大箱',
+    'Boxtype x'     => '超大箱',
+    'Boxid'         => '编号',
+    'State'         => '状态类型',
+    'State 1'       => '正常',
+    'State 3'       => '已禁用',
+    'State 5'       => '已损坏',
+    'Goodsstate'    => '物品状态',
+    'Goodsstate 1'  => '有物',
+    'Goodsstate 0'  => '无物品',
+    'Doorstate'     => '箱门状态',
+    'Doorstate 1'   => '打开',
+    'Doorstate 0'   => '关闭',
+    'Use_status'    => '是否可用',
+    'Use_status 10' => '可用',
+    'Use_status 20' => '不可用',
+    'Is_use'        => '是否禁用',
+    'Is_use 10'     => '是',
+    'Is_use 20'     => '否',
+    'Createtime'    => '创建时间'
+];

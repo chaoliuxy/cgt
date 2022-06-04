@@ -1,0 +1,137 @@
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<!-- <section class="content-header hide">
+<h1>
+控制台                                    <small>Control panel</small>
+</h1>
+</section> -->
+<div class="content">
+	<form id="add-form" class="form-horizontal nice-validator n-default n-bootstrap" role="form" data-toggle="validator" method="POST" action="" novalidate="novalidate">
+		<div class="col-xs-12 col-sm-4">     
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+				<h3 class="panel-title">
+				基础配置
+				</h3>
+				</div>
+				<div class="panel-body form-horizontal">
+					<div class="form-group">
+					<label class="control-label col-xs-12 col-sm-3">日期:</label>
+					<div class="col-xs-12 col-sm-8" style="position: relative;">
+					  <input id="c-time" class="form-control datetimepicker" data-date-format="YYYY-MM-DD" data-use-current="true" name="row[time]" type="text" value="">
+					</div>
+					</div>
+				<div class="form-group">
+					<label class="control-label col-xs-12 col-sm-3">描述:</label>
+					<div class="col-xs-12 col-sm-8">
+					  <textarea id="c-descript" class="form-control " rows="5" name="row[descript]" cols="50"></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-xs-12 col-sm-3">全场个数:</label>
+					<div class="col-xs-12 col-sm-8">
+						<input id="c-big_num" class="form-control" name="row[big_num]" type="number">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-xs-12 col-sm-3">时间段个数:</label>
+					<div class="col-xs-12 col-sm-8">
+						<input id="c-time_num" class="form-control" name="row[time_num]" type="number">
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-xs-12 col-sm-3">是否开启半场:</label>
+					<div class="col-xs-12 col-sm-8">
+						<input id="c-open_small" class="form-control" name="row[open_small]" type="hidden" value="0">
+						<a href="javascript:;" data-toggle="switcher" class="btn-switcher" data-input-id="c-open_small" data-yes="1" data-no="0">
+							<i class="fa fa-toggle-on text-success fa-2x fa-flip-horizontal text-gray"></i>
+						</a>
+					</div>
+				</div>
+				<div class="form-group">
+					<label class="control-label col-xs-12 col-sm-3">状态:</label>
+					<div class="col-xs-12 col-sm-8">
+						<div class="radio">
+							<label for="row[status]-0"><input id="row[status]-0" name="row[status]" type="radio" value="0"> 隐藏</label> 
+							<label for="row[status]-1"><input id="row[status]-1" name="row[status]" type="radio" value="1" checked=""> 开启</label> 
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-xs-6"><button class="btn btn-success pull-right" type="button" id="csh">初始化</button></div>
+					<div class="col-xs-6">
+					<button class="btn btn-danger pull-left" type="reset">重置</button>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-sm-8">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+				<h3 class="panel-title">
+				球场配置
+				</h3>
+				</div>
+				<div class="panel-body" id="creat">
+					<div class="col-xs-12">
+						<ul id="myTab" class="nav nav-tabs">
+						<li class="active"><a href="#big" data-toggle="tab">全场</a></li>
+						</ul>
+					</div>
+					<div class="tab-content col-xs-12 table-responsive">
+						<table class="table table-bordered table-hover tab-pane fade in active" id="big">
+							<tbody style="width: 100%;display: inline-table;">
+							<tr><th>时间段</th><th>篮球场1</th></tr>
+							<tr>
+							<td style="position: relative;"><input type="text" placeholder="开始时间" name="row[big_content][big_time][0][0]" class="form-control datetimepicker" data-date-format="HH:mm" style="min-width: 75px; width: 50%;"><input type="text" placeholder="结束时间" name="row[big_content][big_time][0][1]" class="form-control datetimepicker" data-date-format="HH:mm" style="min-width: 75px;width: 50%;"></td><td><input type="number" name="row[big_content][big_money][0][0]" class="form-control" style="min-width: 75px;" placeholder="全场价格"></td><td><input type="number" name="row[big_content][big_money][0][1]" class="form-control" style="min-width: 75px;" placeholder="全场价格"></td><td><input type="number" name="row[big_content][big_money][0][2]" class="form-control" style="min-width: 75px;" placeholder="全场价格"></td><td><input type="number" name="row[big_content][big_money][0][3]" class="form-control" style="min-width: 75px;" placeholder="全场价格"></td><td><input type="number" name="row[big_content][big_money][0][4]" class="form-control" style="min-width: 75px;" placeholder="全场价格"></td>
+							</tr>
+							</tbody>
+						</table>
+					</div>
+  			</div>
+			</div>
+		</div>
+	<div class="form-group layer-footer">
+	<label class="control-label col-xs-12 col-sm-4"></label>
+	<div class="col-xs-12 col-sm-8">
+	<button type="submit" class="btn btn-success btn-embossed">确定</button>
+	</div>
+	</div>
+	</form>
+<script id="createtpl" type="text/html">
+<div class="col-xs-12">
+<ul id="myTab" class="nav nav-tabs">
+<li class="active"><a href="#big" data-toggle="tab">全场</a></li>
+<% if(open_small==1){%>
+<li><a href="#small" data-toggle="tab">半场</a></li>
+<%}%>
+</ul>
+</div>
+<div class="tab-content col-xs-12 table-responsive">
+<table class="table table-bordered table-hover tab-pane fade in active" id="big">
+<tbody style="width: 100%;display: inline-table;">
+<tr><th>时间段</th><% for(var ii=0;ii<big_num;ii++){%><th>篮球场<%=(ii+1)%></th><%}%></tr>
+<% for(var i=0;i<time_num;i++){%>
+<tr>
+<td><input type="text" placeholder="开始时间" data-rule="time" name="row[big_content][big_time][<%=i%>][0]" class="form-control datetimepicker" data-date-format="HH:mm" style="min-width: 75px; width: 50%;"><input type="text" placeholder="结束时间" data-rule="time" name="row[big_content][big_time][<%=i%>][1]" class="form-control datetimepicker" data-date-format="HH:mm" style="min-width: 75px;width: 50%;"></td><% for(var ii=0;ii<big_num;ii++){%><td><input type="number" name="row[big_content][big_money][<%=i%>][<%=ii%>]" class="form-control" style="min-width: 75px;" placeholder="全场价格"></td><%}%>
+</tr>
+<%}%>
+</tbody>
+</table>
+<% if(open_small==1){%>
+<table class="table table-bordered table-hover tab-pane fade" id="small">
+<tbody style="width: 100%;display: inline-table;">
+<tr><th>时间段</th><% for(var ii=0;ii<big_num;ii++){%><th>篮球场<%=(ii+1)%></th><%}%></tr>
+<% for(var i=0;i<time_num;i++){%>
+<tr>
+<td><input type="text" placeholder="开始时间" data-rule="time" name="row[small_content][small_time][<%=i%>][0]" class="form-control datetimepicker" data-date-format="HH:mm" style="min-width: 75px;width: 50%;"><input type="text" placeholder="结束时间" data-rule="time" name="row[small_content][small_time][<%=i%>][1]" class="form-control datetimepicker" data-date-format="HH:mm" style="min-width: 75px;width: 50%;"></td><% for(var ii=0;ii<big_num;ii++){%><td><input type="number" name="row[small_content][small_money][<%=i%>][<%=ii%>][0]" class="form-control" style="min-width: 75px;width: 50%;" placeholder="半场1价格"><input type="number" name="row[small_content][small_money][<%=i%>][<%=ii%>][1]" class="form-control" style="min-width: 75px;width: 50%;" placeholder="半场2价格"></td><%}%>
+</tr>
+<%}%>
+</tbody>
+</table>
+<%}%>
+</div>
+</script>
+
+</div>
+</div>

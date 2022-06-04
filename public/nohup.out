@@ -1,0 +1,1207 @@
+PHP Parse error:  syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+
+Parse error: syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+PHP Parse error:  syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+
+Parse error: syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+PHP Parse error:  syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+
+Parse error: syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+Could not open input file: KIldJsDvMC
+Could not open input file: KIldJsDvMC
+Could not open input file: KIldJsDvMC
+Could not open input file: KIldJsDvMC
+Could not open input file: KIldJsDvMC
+Could not open input file: KIldJsDvMC
+PHP Parse error:  syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+
+Parse error: syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+
+Parse error: syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+PHP Parse error:  syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+
+Parse error: syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+PHP Parse error:  syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+
+Parse error: syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+
+Parse error: syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+PHP Parse error:  syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+
+Parse error: syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+PHP Parse error:  syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+
+Parse error: syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+PHP Parse error:  syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+
+Parse error: syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+PHP Parse error:  syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+
+Parse error: syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+PHP Parse error:  syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+
+Parse error: syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+PHP Parse error:  syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+
+Parse error: syntax error, unexpected ':', expecting '{' in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/symfony/polyfill-php80/bootstrap.php on line 23
+PHP Fatal error:  Default value for parameters with a class type hint can only be NULL in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/overtrue/wechat/src/Kernel/Support/Helpers.php on line 44
+
+Fatal error: Default value for parameters with a class type hint can only be NULL in /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/vendor/overtrue/wechat/src/Kernel/Support/Helpers.php on line 44
+
+
+                                   
+  [think\exception\HttpException]  
+  module not exists:admin          
+                                   
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:535
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/start.php:19
+ require() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/index.php:23
+
+
+
+success
+success
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:108
+ phpmqtt\phpMQTT->connect_auto() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:507
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:183
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+success
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:108
+ phpmqtt\phpMQTT->connect_auto() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:507
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:183
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+success
+
+                                                      
+  [think\exception\ErrorException]                    
+  Error while sending STMT_PREPARE packet. PID=26351  
+                                                      
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/db/Connection.php:428
+ think\Error::appError() at n/a:n/a
+ PDO->prepare() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/db/Connection.php:428
+ think\db\Connection->execute() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/db/Query.php:269
+ think\db\Query->execute() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/db/Query.php:2275
+ think\db\Query->insert() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:209
+ app\admin\controller\Mqtt->onMessage() at n/a:n/a
+ call_user_func() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:479
+ phpmqtt\phpMQTT->message() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:544
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:184
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+success
+
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:164
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+success
+success
+success
+
+                                                         
+  [think\exception\ThrowableError]                       
+  Parse error: syntax error, unexpected 'db' (T_STRING)  
+                                                         
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:132
+ think\__include_file() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/Loader.php:85
+ think\Loader::autoload() at n/a:n/a
+ spl_autoload_call() at n/a:n/a
+ class_exists() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/Loader.php:478
+ think\Loader::controller() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:580
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+
+                                                         
+  [think\exception\ThrowableError]                       
+  Parse error: syntax error, unexpected 'db' (T_STRING)  
+                                                         
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:132
+ think\__include_file() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/Loader.php:85
+ think\Loader::autoload() at n/a:n/a
+ spl_autoload_call() at n/a:n/a
+ class_exists() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/Loader.php:478
+ think\Loader::controller() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:580
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+success
+
+                                                           
+  [think\exception\ErrorException]                         
+  Undefined property: app\admin\controller\Mqtt::$request  
+                                                           
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:109
+ think\Error::appError() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:109
+ app\admin\controller\Mqtt->onMessage() at n/a:n/a
+ call_user_func() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:479
+ phpmqtt\phpMQTT->message() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:544
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:95
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:85
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+success
+
+                                                     
+  [think\exception\ErrorException]                   
+  Error while sending STMT_PREPARE packet. PID=8871  
+                                                     
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/db/Connection.php:428
+ think\Error::appError() at n/a:n/a
+ PDO->prepare() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/db/Connection.php:428
+ think\db\Connection->execute() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/db/Query.php:269
+ think\db\Query->execute() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/db/Query.php:2275
+ think\db\Query->insert() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:110
+ app\admin\controller\Mqtt->onMessage() at n/a:n/a
+ call_user_func() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:479
+ phpmqtt\phpMQTT->message() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:544
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:94
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+success
+success
+
+                                    
+  [think\exception\ErrorException]  
+  Undefined index: dataType         
+                                    
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:138
+ think\Error::appError() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:138
+ app\admin\controller\Mqtt->onMessage() at n/a:n/a
+ call_user_func() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:479
+ phpmqtt\phpMQTT->message() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:544
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:94
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+
+                                    
+  [think\exception\ErrorException]  
+  Undefined index: dataType         
+                                    
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:139
+ think\Error::appError() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:139
+ app\admin\controller\Mqtt->onMessage() at n/a:n/a
+ call_user_func() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:479
+ phpmqtt\phpMQTT->message() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:544
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:94
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+success
+
+                                    
+  [think\exception\ErrorException]  
+  Undefined index: dataType         
+                                    
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:139
+ think\Error::appError() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:139
+ app\admin\controller\Mqtt->onMessage() at n/a:n/a
+ call_user_func() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:479
+ phpmqtt\phpMQTT->message() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:544
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:94
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+success
+
+                                                      
+  [think\exception\ErrorException]                    
+  Error while sending STMT_PREPARE packet. PID=30226  
+                                                      
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/db/Connection.php:428
+ think\Error::appError() at n/a:n/a
+ PDO->prepare() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/db/Connection.php:428
+ think\db\Connection->execute() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/db/Query.php:269
+ think\db\Query->execute() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/db/Query.php:2275
+ think\db\Query->insert() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:110
+ app\admin\controller\Mqtt->onMessage() at n/a:n/a
+ call_user_func() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:479
+ phpmqtt\phpMQTT->message() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:544
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:94
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+success
+
+                                                      
+  [think\exception\ErrorException]                    
+  Error while sending STMT_PREPARE packet. PID=30660  
+                                                      
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/db/Connection.php:428
+ think\Error::appError() at n/a:n/a
+ PDO->prepare() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/db/Connection.php:428
+ think\db\Connection->execute() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/db/Query.php:269
+ think\db\Query->execute() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/db/Query.php:2275
+ think\db\Query->insert() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:110
+ app\admin\controller\Mqtt->onMessage() at n/a:n/a
+ call_user_func() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:479
+ phpmqtt\phpMQTT->message() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:544
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:94
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+success
+success
+success
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:108
+ phpmqtt\phpMQTT->connect_auto() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:507
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:94
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:108
+ phpmqtt\phpMQTT->connect_auto() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:507
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:94
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+success
+success
+success
+success
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+
+ think\Error::appError() at n/a:n/a
+
+ stream_socket_client() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:108
+ phpmqtt\phpMQTT->connect_auto() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:507
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:94
+                                                                                              
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+                                                                                              
+  [think\exception\ErrorException]                                                            
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+
+                                                                                              
+
+
+
+Exception trace:
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ stream_socket_client() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:108
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:108
+ phpmqtt\phpMQTT->connect_auto() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:507
+ phpmqtt\phpMQTT->connect_auto() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:507
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:498
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:94
+ app\admin\controller\Mqtt->subss() at n/a:n/a
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+
+
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:108
+ phpmqtt\phpMQTT->connect_auto() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:507
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:354
+ app\admin\controller\Mqtt->subs() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+success
+success
+success
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:108
+ phpmqtt\phpMQTT->connect_auto() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:507
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:94
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:108
+ phpmqtt\phpMQTT->connect_auto() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:507
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:354
+ app\admin\controller\Mqtt->subs() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:108
+ phpmqtt\phpMQTT->connect_auto() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:507
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:498
+ app\admin\controller\Mqtt->subss() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+success
+success
+
+                                    
+  [think\exception\ErrorException]  
+  Undefined variable: param         
+                                    
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:198
+ think\Error::appError() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:198
+ app\admin\controller\Mqtt->onMessage() at n/a:n/a
+ call_user_func() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:479
+ phpmqtt\phpMQTT->message() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:544
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:94
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+success
+success
+
+                                    
+  [think\exception\ErrorException]  
+  Undefined variable: param         
+                                    
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:198
+ think\Error::appError() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:198
+ app\admin\controller\Mqtt->onMessage() at n/a:n/a
+ call_user_func() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:479
+ phpmqtt\phpMQTT->message() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:544
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:94
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:108
+ phpmqtt\phpMQTT->connect_auto() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:507
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:354
+ app\admin\controller\Mqtt->subs() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:108
+ phpmqtt\phpMQTT->connect_auto() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:507
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:354
+ app\admin\controller\Mqtt->subs() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+success
+
+                                    
+  [think\exception\ErrorException]  
+  Undefined variable: param         
+                                    
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:198
+ think\Error::appError() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:198
+ app\admin\controller\Mqtt->onMessage() at n/a:n/a
+ call_user_func() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:479
+ phpmqtt\phpMQTT->message() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:544
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:94
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+success
+success
+success
+success
+success
+successError:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+success
+successError:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+
+
+                                    
+  [think\exception\ErrorException]  
+  Undefined index: msgType          
+                                    
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:373
+ think\Error::appError() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:373
+ app\admin\controller\Mqtt->onMessages() at n/a:n/a
+ call_user_func() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:479
+ phpmqtt\phpMQTT->message() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:544
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:354
+ app\admin\controller\Mqtt->subs() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+
+                                    
+  [think\exception\ErrorException]  
+  Undefined index: msgType          
+                                    
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:373
+ think\Error::appError() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:373
+ app\admin\controller\Mqtt->onMessages() at n/a:n/a
+ call_user_func() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:479
+ phpmqtt\phpMQTT->message() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:544
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:354
+ app\admin\controller\Mqtt->subs() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+Error:Connection failed! (Error: 0x20 0x02)
+
+
+successError:Connection failed! (Error: 0x20 0x02)
+
+
+success
+success
+success
+success
+
+                                    
+  [think\exception\ErrorException]  
+  Undefined index: msgType          
+                                    
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:373
+ think\Error::appError() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:373
+ app\admin\controller\Mqtt->onMessages() at n/a:n/a
+ call_user_func() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:479
+ phpmqtt\phpMQTT->message() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:544
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:354
+ app\admin\controller\Mqtt->subs() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+success
+success
+
+                                    
+  [think\exception\ErrorException]  
+  Undefined index: msgType          
+                                    
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:113
+ think\Error::appError() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:113
+ app\admin\controller\Mqtt->onMessage() at n/a:n/a
+ call_user_func() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:479
+ phpmqtt\phpMQTT->message() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:544
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:94
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+
+                                    
+  [think\exception\ErrorException]  
+  Undefined index: msgType          
+                                    
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:113
+ think\Error::appError() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:113
+ app\admin\controller\Mqtt->onMessage() at n/a:n/a
+ call_user_func() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:479
+ phpmqtt\phpMQTT->message() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:544
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:94
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+
+                                    
+  [think\exception\ErrorException]  
+  Undefined index: msgType          
+                                    
+
+
+Exception trace:
+ () at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:113
+ think\Error::appError() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:113
+ app\admin\controller\Mqtt->onMessage() at n/a:n/a
+ call_user_func() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:479
+ phpmqtt\phpMQTT->message() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/extend/phpmqtt/phpMQTT.php:544
+ phpmqtt\phpMQTT->proc() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/application/admin/controller/Mqtt.php:94
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cgt.qifudaren.net/cgt.chaowo.top/public/KIldJsDvMC.php:37
+
+
+
+success
+success
+
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+ () at /www/wwwroot/cat.avantgared.com/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cat.avantgared.com/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cat.avantgared.com/application/admin/controller/Mqtt.php:84
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cat.avantgared.com/public/KIldJsDvMC.php:37
+
+
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl (/www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl: cannot open shared object file: No such file or directory), /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl.so (/www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  Module 'redis' already loaded in Unknown on line 0
+PHP Warning:  Module 'fileinfo' already loaded in Unknown on line 0
+
+
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+ () at /www/wwwroot/cat.avantgared.com/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cat.avantgared.com/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cat.avantgared.com/application/admin/controller/Mqtt.php:84
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cat.avantgared.com/public/KIldJsDvMC.php:37
+
+
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl (/www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl: cannot open shared object file: No such file or directory), /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl.so (/www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  Module 'redis' already loaded in Unknown on line 0
+PHP Warning:  Module 'fileinfo' already loaded in Unknown on line 0
+
+
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+ () at /www/wwwroot/cat.avantgared.com/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cat.avantgared.com/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cat.avantgared.com/application/admin/controller/Mqtt.php:84
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cat.avantgared.com/public/KIldJsDvMC.php:37
+
+
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl (/www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl: cannot open shared object file: No such file or directory), /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl.so (/www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  Module 'redis' already loaded in Unknown on line 0
+PHP Warning:  Module 'fileinfo' already loaded in Unknown on line 0
+
+
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+ () at /www/wwwroot/cat.avantgared.com/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cat.avantgared.com/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cat.avantgared.com/application/admin/controller/Mqtt.php:366
+ app\admin\controller\Mqtt->subs() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cat.avantgared.com/public/KIldJsDvMC.php:37
+
+
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl (/www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl: cannot open shared object file: No such file or directory), /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl.so (/www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  Module 'redis' already loaded in Unknown on line 0
+PHP Warning:  Module 'fileinfo' already loaded in Unknown on line 0
+
+
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+ () at /www/wwwroot/cat.avantgared.com/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cat.avantgared.com/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cat.avantgared.com/application/admin/controller/Mqtt.php:366
+ app\admin\controller\Mqtt->subs() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cat.avantgared.com/public/KIldJsDvMC.php:37
+
+
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl (/www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl: cannot open shared object file: No such file or directory), /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl.so (/www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  Module 'redis' already loaded in Unknown on line 0
+PHP Warning:  Module 'fileinfo' already loaded in Unknown on line 0
+
+
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+ () at /www/wwwroot/cat.avantgared.com/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cat.avantgared.com/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cat.avantgared.com/application/admin/controller/Mqtt.php:84
+ app\admin\controller\Mqtt->sub() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cat.avantgared.com/public/KIldJsDvMC.php:37
+
+
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl (/www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl: cannot open shared object file: No such file or directory), /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl.so (/www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  Module 'redis' already loaded in Unknown on line 0
+PHP Warning:  Module 'fileinfo' already loaded in Unknown on line 0
+
+
+
+                                                                                              
+  [think\exception\ErrorException]                                                            
+  stream_socket_client(): unable to connect to tcp://120.26.72.100:1883 (Connection refused)  
+                                                                                              
+
+
+Exception trace:
+ () at /www/wwwroot/cat.avantgared.com/extend/phpmqtt/phpMQTT.php:145
+ think\Error::appError() at n/a:n/a
+ stream_socket_client() at /www/wwwroot/cat.avantgared.com/extend/phpmqtt/phpMQTT.php:145
+ phpmqtt\phpMQTT->connect() at /www/wwwroot/cat.avantgared.com/application/admin/controller/Mqtt.php:366
+ app\admin\controller\Mqtt->subs() at n/a:n/a
+ ReflectionMethod->invokeArgs() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:343
+ think\App::invokeMethod() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:611
+ think\App::module() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:456
+ think\App::exec() at /www/wwwroot/cat.avantgared.com/thinkphp/library/think/App.php:139
+ think\App::run() at /www/wwwroot/cat.avantgared.com/public/KIldJsDvMC.php:37
+
+
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl (/www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl: cannot open shared object file: No such file or directory), /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl.so (/www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  Module 'redis' already loaded in Unknown on line 0
+PHP Warning:  Module 'fileinfo' already loaded in Unknown on line 0
+
+successPHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl (/www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl: cannot open shared object file: No such file or directory), /www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl.so (/www/server/php/73/lib/php/extensions/no-debug-non-zts-20180731/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+PHP Warning:  Module 'redis' already loaded in Unknown on line 0
+PHP Warning:  Module 'fileinfo' already loaded in Unknown on line 0
+
+success
