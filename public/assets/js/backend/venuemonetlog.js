@@ -34,7 +34,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'before', title: __('Before'), operate:'BETWEEN', operate: false},
                         {field: 'after', title: __('After'), operate:'BETWEEN', operate: false},
                         {field: 'memo', title: __('Memo'), operate: 'LIKE'},
-                        {field: 'type', title: __('Type'), searchList: {"10":__('Type 10'),"20":__('Type 20'),"30":__('Type 30'),"40":__('Type 40'),"50":__('Type 50'),"60":__('Type 60'),"70":__('Type 70')}, formatter: Table.api.formatter.normal},
+                        {field: 'type', title: __('Type'), searchList: {"10":__('Type 10'),"20":__('Type 20'),"30":__('Type 30'),"40":__('Type 40'),"50":__('Type 50'),"60":__('Type 60'),"70":__('Type 70'),"80":__('Type 80')}, formatter: Table.api.formatter.normal},
                         {field: 'createtime', title: __('Createtime'), operate:'RANGE', addclass:'datetimerange', autocomplete:false, formatter: Table.api.formatter.datetime},
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
                     ]

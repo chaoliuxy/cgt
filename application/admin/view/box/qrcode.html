@@ -1,0 +1,15 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+  <div class="form-group">
+    <label class="control-label col-xs-12 col-sm-2">{:__('Qrcode')}:</label>
+    <div class="col-xs-12 col-sm-8">
+      <div class="input-group">
+        <input id="c-qrcode" disabled data-rule="required" class="form-control" size="50" name="row[qrcode]" type="text" value="{$row.qrcode|htmlentities}">
+        <div class="input-group-addon no-border no-padding">
+          <span><button type="button" id="faupload-qrcode" class="btn btn-danger faupload" data-input-id="c-qrcode" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="true" data-preview-id="p-images"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+        </div>
+<!--        <span class="msg-box n-right" for="c-qrcode"></span>-->
+      </div>
+      <ul class="row list-inline faupload-preview" id="p-images"></ul>
+    </div>
+  </div>
+</form>

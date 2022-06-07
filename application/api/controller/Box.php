@@ -78,7 +78,7 @@ class Box extends Api
         $result = $this->api_notice_increment($url, $post_data);
         $data = 'image/png;base64,' . base64_encode($result);
         $data = substr($data, 17);
-        $base_img = str_replace('data:image/jpg;base64,', '', $data);
+        str_replace('data:image/jpg;base64,', '', $data);
 
         //  设置文件路径和文件前缀名称
 

@@ -1,12 +1,10 @@
 define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefined, Backend, Table, Form) {
     if ($('input[name="session"]').val()) {
-        console.log(2);
-        $("#c-reservation_id").data("params", function (obj) {
+        $("#c-reservation_id").data("params", function () {
           return {custom: {venue_id: $('input[name="session"]').val()}};
         });
       }else{
-          console.log(1);
-        $("#c-reservation_id").data("params", function (obj) {
+        $("#c-reservation_id").data("params", function () {
           return {custom: {venue_id: $('input[name="row[venue_id]"]').val()}};
         });
       }
@@ -21,6 +19,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                     del_url: 'box/del',
                     multi_url: 'box/multi',
                     import_url: 'box/import',
+                    qrcode_url: 'box/qrcode',
                     table: 'box',
                 }
             });
@@ -43,7 +42,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'case_id', title: __('Case_id')},
                         {field: 'type', title: __('Type'), searchList: {"10":__('type 10'),"20":__('type 20')}, formatter: Table.api.formatter.normal},
                         // {field: 'opentime', title: __('Opentime'), operate:'RANGE', addclass:'datetimerange', autocomplete:false},
-                        // {field: 'address', title: __('Address'), operate: 'LIKE'},
+                        {field: 'qrcode', title: __('Qrcode'), operate: 'LIKE', formatter: Table.api.formatter.url},
                         // {field: 'tel', title: __('Tel'), operate: 'LIKE'},
                         {field: 'createtime', title: __('Createtime'), operate:'RANGE', addclass:'datetimerange', autocomplete:false, formatter: Table.api.formatter.datetime},
                         // {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
@@ -62,6 +61,9 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
             Controller.api.bindevent();
         },
         edit: function () {
+            Controller.api.bindevent();
+        },
+        qrcode: function () {
             Controller.api.bindevent();
         },
         api: {

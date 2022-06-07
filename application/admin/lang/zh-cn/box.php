@@ -11,5 +11,6 @@ return [
     'Type'            =>  '终端网络状态',
     'Type 10'         =>  '正常',
     'Type 20'         =>  '故障',
-    'Createtime'     => '创建时间'
+    'Createtime'     => '创建时间',
+    'Qrcode'         => '小程序二维码',
 ];

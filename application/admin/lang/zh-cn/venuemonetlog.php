@@ -15,6 +15,7 @@ return [
     'Type 50'    => '活动',
     'Type 60'    => '点餐',
     'Type 70'    => '提现',
+    'Type 80'    => '退款',
     'Createtime' => '创建时间',
     'Venue.name' => '场馆名称'
 ];
