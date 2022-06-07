@@ -30,6 +30,7 @@ class Mqtt extends Api
     public function pub()
     {
         $param = $this->request->param();
+        Log::error($param);
         if (!$param["devId"]) {
             $this->error('请输入设备ID');
         }

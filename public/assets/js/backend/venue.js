@@ -50,7 +50,7 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {field: 'createtime', title: __('Createtime'), operate:'RANGE', addclass:'datetimerange', autocomplete:false, formatter: Table.api.formatter.datetime},
                         // {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
 												{field: 'operate', title: __('Operate'), table: table, buttons: [
-                          {name: 'send', text: __('余额明'), icon: 'fa fa-eye', classname: 'btn btn-xs btn-warning btn-dialog', url: '/KIldJsDvMC.php/venuemonetlog?ref=addtabs',
+                          {name: 'send', text: __('余额明细'), icon: 'fa fa-eye', classname: 'btn btn-xs btn-warning btn-dialog', url: '/KIldJsDvMC.php/venuemonetlog?ref=addtabs',
                         },
                       ],  events: Table.api.events.operate, formatter: Table.api.formatter.operate}
                     ]
