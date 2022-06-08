@@ -76,7 +76,8 @@ class Lamplist extends Backend
     public function open($ids='')
     {
         $row = $this->model->where('id', $ids)->find();
-        $url = 'http://120.79.196.238:8001/light';
+//        $url = 'http://120.79.196.238:8001/light';
+        $url = 'http://112.74.105.251:8001/light';
         $datas = [
             'id'=>$row['lamp_id'],
             'action'=>'open'.$row['number'],
