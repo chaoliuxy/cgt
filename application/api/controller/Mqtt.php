@@ -174,7 +174,7 @@ class Mqtt extends Api
         // 客户端id  可以用随机数
         $client = "tp5Mqtt" . rand(1000, 9999);
         // mqtt主机 主机，请配置为自己的主机
-        $host = "120.26.72.100";
+        $host = "112.74.105.251";
         // mqtt端口
         $port = 1883;
         // 密钥 用于证书配置,如果需要ssl认证，则必须填写
@@ -361,7 +361,7 @@ class Mqtt extends Api
         // 客户端id  可以用随机数
         $client = "tp5Mqtt" . rand(1000, 9999);
         // mqtt主机 主机，请配置为自己的主机
-        $host = "120.26.72.100";
+        $host = "112.74.105.251";
         // mqtt端口
         $port = 1883;
         // 密钥 用于证书配置,如果需要ssl认证，则必须填写
@@ -434,7 +434,7 @@ class Mqtt extends Api
         // 客户端id  可以用随机数
         $client = "tp5Mqtt" . rand(1000, 9999);
         // mqtt主机 主机，请配置为自己的主机
-        $host = "120.26.72.100";
+        $host = "112.74.105.251";
         // mqtt端口
         $port = 1883;
         // 密钥 用于证书配置,如果需要ssl认证，则必须填写
