@@ -4,6 +4,7 @@ namespace app\api\controller;
 
 use app\common\controller\Api;
 use app\common\model\Activity;
+use think\Log;
 use Yansongda\Pay\Pay;
 use addons\epay\library\Service;
 use app\common\model\News;
@@ -714,7 +715,7 @@ class Index extends Api
         if ($order['groupbuying'] == '20') {
             if ($order['is_head'] == '20') {
                 # 团购订单且是团长
-                $num = db('goods_groupon_log')->where('order_id', $ids)->count();
+                $num = db('goods_groupon_log')->where('order_id', $order_id)->count();
                 if ($num > 1) {
                     $this->error('已有人拼团无法取消');
                 }
@@ -726,11 +727,11 @@ class Index extends Api
             if ($order['groupbuying'] == '20') {
                 if ($order['is_head'] == '20') {
                     # 团购订单且是团长
-                    db('goods_groupon_log')->where('order_id', $ids)->delete();
-                    db('goods_groupon')->where('order_id', $ids)->delete();
+                    db('goods_groupon_log')->where('order_id', $order_id)->delete();
+                    db('goods_groupon')->where('order_id', $order_id)->delete();
                 } else {
-                    db('goods_groupon_log')->where('order_id', $ids)->delete();
-                    db('goods_groupon')->where('order_id', $ids)->delete();
+                    db('goods_groupon_log')->where('order_id', $order_id)->delete();
+                    db('goods_groupon')->where('order_id', $order_id)->delete();
                 }
             } else {
             }

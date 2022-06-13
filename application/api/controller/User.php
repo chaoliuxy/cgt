@@ -396,8 +396,8 @@ class User extends Api
         db('order')->where(['user_id' => $this->auth->id, 'order_type' => '40', 'pay_status' => '10'])->delete();
         $list['list'] = db('signup')
             ->alias('s')
-            ->join('activity a', 'a.id = s.activity_id', 'LEFT')
-            ->join('order o', 's.id = o.order_ids', 'LEFT')
+            ->join('activity a', 'a.id = s.activity_id')
+            ->join('order o', 's.id = o.order_ids')
             ->where(['s.user_id' => $this->auth->id, 'a.venue_id' => $this->auth->venue_id])
             //   ->where('o.order_type', '40')
             ->field('a.id as activity_id,a.name,a.images,s.createtime,s.status,o.id as order_id')
@@ -423,8 +423,8 @@ class User extends Api
         }
         $list['count'] = db('signup')
             ->alias('s')
-            ->join('activity a', 'a.id = s.activity_id', 'LEFT')
-            ->join('order o', 's.id = o.order_ids', 'LEFT')
+            ->join('activity a', 'a.id = s.activity_id')
+            ->join('order o', 's.id = o.order_ids')
             //   ->where('o.order_type', '40')
             ->where(['s.user_id' => $this->auth->id, 'a.venue_id' => $this->auth->venue_id])
             ->group('a.id')

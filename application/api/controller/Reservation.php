@@ -44,7 +44,7 @@ class Reservation extends Api
             $this->error('参数不全');
         }
         $list['list'] = db('reservation')
-            ->where(['type_id' => $param['type_id']])->field('id,images,name,address,lat,lng')
+            ->where(['type_id' => $param['type_id'],'status'=>'20'])->field('id,images,name,address,lat,lng')
             ->order('createtime DESC')
             ->limit($param['showpage'])
             ->page($param['page'])->select();
