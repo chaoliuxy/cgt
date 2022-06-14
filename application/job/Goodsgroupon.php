@@ -57,7 +57,7 @@ class Goodsgroupon extends Controller
         $list = db('goods_groupon_log')->alias('l')->join('order o', 'o.id = l.order_id')->where('l.groupon_id', $goodsgroupon_id)->field('l.id,l.user_id,o.order_ids as order_id,o.order_no,o.pay_price,o.order_type')->select();
         $venuelog = new Venuelog();
         foreach ($list as $v) {
-            $venue_id = db('user')->where('id', $list['user_id'])->value('venue_id');
+            $venue_id = db('user')->where('id', $v['user_id'])->value('venue_id');
             $before = db('venue')->where('id', $venue_id)->value('money');
             if ($v['order_type'] == '20') {
                 # 课程

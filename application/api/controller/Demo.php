@@ -421,4 +421,86 @@ class Demo extends Api
 
         $this->success('ok', $time);
     }
+
+    /**
+     * 场次列表
+     */
+    public function sessionsvalues()
+    {
+        $param = $this->request->param();
+        if (!isset($param['reservation_id']) || empty($param['reservation_id'])) {
+            $this->error('请选择场馆');
+        }
+        for ($i = 0; $i < 7; $i++) {
+            $dateArray[$i] = date('Y-m-d', strtotime(date('Y-m-d') . '+' . $i . 'day'));
+        };
+        $time = get_date($dateArray);//调用函数
+        $name = db('reservation')->where('id', $param['reservation_id'])->value('field_name');
+        foreach ($time as $k => &$v) {
+            $v['datas'] = [];
+            $v['datas'] = db('ball_date')->where(['time' => $v['date'], 'reservation_id' => $param['reservation_id']])->field('*')->find();
+            $v['datas']['big_content'] = json_decode($v['datas']['big_content'], true);
+            if ($v['datas']['big_content']) {
+                foreach ($v['datas']['big_content'] as &$vv) {
+                    foreach ($vv as $k => &$vs) {
+                        if (stripos($vs[0], ':')) {
+                            $vs['time'] = $vs[0] . '-' . $vs[1];
+                            unset($vs[0]);
+                            unset($vs[1]);
+                        }
+                    }
+                }
+                unset($v['datas']['small_content']);
+                $v['datas']['list'] = [];
+                $v['optional'] = [];
+                $v['notoptional'] = [];
+                $v['times'] = [];
+                foreach ($v['datas']['big_content']['big_money'] as $key => $value) {
+                    foreach ($value as $keys => $values) {
+                        $v['datas']['list'][$key][$keys]['price'] = $values;
+                        $v['num'] = $keys + 1;
+                        $v['datas']['list'][$key][$keys]['field_name'] = $name . $v['num'];
+                        if ($values) {
+                            $v['datas']['list'][$key][$keys]['status'] = '20';//可预定
+//                            $order_id = db('litestore_order_goods')->where('date', $v['datas']['list'][$key][$keys]['field_name'])->where(['time' => $v['datas']['time'], 'time_slot' => $v['datas']['big_content']['big_time'][$key]['time']])->value('order_id');
+//                            $status = db('litestore_order')->where('id', $order_id)->value('status');
+//                            if ($status !== '10' && $status !== null) {
+//                                $ids = db('litestore_order_goods')->where('date', 'in', $v['datas']['list'][$key][$keys]['field_name'])->where(['time' => $v['datas']['time'], 'time_slot' => $v['datas']['big_content']['big_time'][$key]['time']])->value('id');
+//                                if ($ids) {
+//                                    array_push($v['times'], $ids);
+//                                    $v['datas']['list'][$key][$keys]['status'] = '30';//可预定
+//                                }
+//                            }
+                            array_push($v['optional'], $v['datas']['list'][$key][$keys]['status']);
+                        } else {
+                            $v['datas']['list'][$key][$keys]['status'] = '10';//不可选
+                            array_push($v['notoptional'], $v['datas']['list'][$key][$keys]['status']);
+                        }
+                    }
+                }
+                foreach ($v['datas']['big_content']['big_time'] as $k => &$vs) {
+                    $vs['big_money'] = $v['datas']['list'][$k];
+                    if (strtotime($v['date'] . ' ' . explode('-', $vs['time'])[0]) <= strtotime(date('Y-m-d H:i', time()))) {
+                        foreach ($vs['big_money'] as &$vv) {
+                            $vv['status'] = '10';
+                            $vv['price'] = '';
+                        }
+                    }
+                }
+                if ($v['times']) {
+                    $v['datas']['occupy'] = count($v['times']);//已预约
+                } else {
+                    $v['datas']['occupy'] = 0;
+                }
+                $v['datas']['optional'] = count($v['optional']) - $v['datas']['occupy'];//可选
+                $v['datas']['notoptional'] = count($v['notoptional']);//不可选
+                unset($v['datas']['list']);
+                unset($v['datas']['big_content']['big_money']);
+                unset($v['id']);
+            }
+            unset($v['optional']);
+        }
+
+        $this->success('ok', $time);
+    }
 }

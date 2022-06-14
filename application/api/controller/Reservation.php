@@ -356,6 +356,7 @@ class Reservation extends Api
             $dateArray[$i] = date('Y-m-d', strtotime(date('Y-m-d') . '+' . $i . 'day'));
         };
         $time = get_date($dateArray);//调用函数
+        $name = db('reservation')->where('id', $param['reservation_id'])->value('field_name');
         foreach ($time as $k => &$v) {
             $v['datas'] = [];
             $v['datas'] = db('ball_date')->where(['time' => $v['date'], 'reservation_id' => $param['reservation_id']])->field('*')->find();
@@ -370,7 +371,6 @@ class Reservation extends Api
                         }
                     }
                 }
-                $name = db('reservation')->where('id', $param['reservation_id'])->value('field_name');
                 unset($v['datas']['small_content']);
                 $v['datas']['list'] = [];
                 $v['optional'] = [];
