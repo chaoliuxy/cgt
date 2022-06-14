@@ -83,7 +83,6 @@ class Lamplist extends Backend
             'action'=>'open'.$row['number'],
         ];
         $result = Http::http_post_json($url, json_encode($datas, true));
-        Log::error($result);
         if (json_decode($result[1], true)['result']=='OK') {
             db('lamplist')->where('id', $ids)->update(['status'=>'20']);
             $this->success('操作成功', json_decode($result[1], true)['result']);
@@ -101,7 +100,7 @@ class Lamplist extends Backend
             'action'=>'close'.$row['number'],
         ];
         $result = Http::http_post_json($url, json_encode($datas, true));
-        if (json_decode($result[1], true)['result']=='OK') {
+      if (json_decode($result[1], true)['result']=='OK') {
             db('lamplist')->where('id', $ids)->update(['status'=>'10']);
             $this->success('操作成功', json_decode($result[1], true)['result']);
         } else {

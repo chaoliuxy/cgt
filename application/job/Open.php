@@ -47,7 +47,7 @@ class Open extends Controller
         $ids = db('order')->where('order_ids', $orders['order_id'])->value('id');
         $data = db('lamplist')->where(['reservation_id' => $orders['reservation_id'], 'field_name' => $orders['date']])->find();
         if ($ids && $data['id']) {
-            $url = 'http://120.79.196.238:8001/light';
+            $url = 'http://112.74.105.251:8001/light';
             if ($type == '20') {
                 # open
                 $datas = [
